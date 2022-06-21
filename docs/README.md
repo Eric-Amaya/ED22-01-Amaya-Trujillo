@@ -32,22 +32,14 @@ Dado el laboratorio describir como se entiende el problema bajo sus propias pala
 
 **Objetivo General**
 
-El fin que se desea llegar. (Comenzar con un verbo: "Construir un sistema...", "Desarrollar un sistema...", etc)
+Desarrollar un sistema que identifique y contabilice la cantidad de personas que entren y salgan dentro de una zona previamente determinada
 
 **Objetivos específicos**
 
-1. Objetivo 1
-2. Objetivo 2
-3. Objetivos 3
-
-Los objetivos específicos son acciones específicas que son desarrolladas para lograr cumplir el objetivo general, por ejemplo:
-
-1. Investigar  el  estado  del  arte  de  visión  por  computador  y  audio  para  resolver  tareas de  clasificación unimodal y multimodal aplicado  al  problema  de  reconocimiento  de emociones.
-2.  Seleccionar  uno  o  dos  métodos  estudiados  en  el  estado  del  arte  para  la  estimación  de  laemoción utilizando datos unimodales o multimodales.
-3.  Implementar los métodos seleccionados utilizando el lenguaje de programación Python y laslibrerías suministradas por Pytorch.
-4.  Validar  los  resultados  por  medio  bases  de  datos  especializadas  para  el  desarrollo  deaplicaciones basadas en la estimación de la emoción y que incluyan varios modos de atributoscomo: imágenes, sonido y/o texto.
-5.  Proponer  mejoras  a  los  modelos  implementados  para  mejorar  su  desempeño  en  futurasimplementaciones o proyectos de investigación.
-6.  Difundir los resultados en medios científicos nacionales o internacionales.
+1. Interpretar los resultados obtenidos entre las dos muestras (entrada y salida de la zona).
+2. Implementar el lenguaje c++ para elaborar el sistema contador de personas. 
+3. Enumerar el total de personas que entran y salen de la zona.
+4. Organizar los datos obtenidos dentro de listas.
 
 ### 1.3 Solución propuesta
 
@@ -55,7 +47,8 @@ Esbozo de la solución propuesta, se espera que esta vaya evolucionando a medida
 
 ## 2. Materiales y métodos
 
-Explicar brevemente como se espera desarrollar el trabajo de implementación.
+Para el desarrollo del presente trabajo se realizará una planificación a través de un cronograma y el registro de una bitácora para así lograr un avance más ordenado y estructurado.
+Este proyecto se elaborará mediante codificación en lenguaje c++, reforzado con la libreria OpenCV, utilizando la IDE Visual Studio Code.
 
 ### 2.1 Instalación
 
