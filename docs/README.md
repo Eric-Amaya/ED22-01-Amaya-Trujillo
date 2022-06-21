@@ -26,13 +26,13 @@ Las comparaciones deben concretarse con hechos y datos, sin frases ambiguas o t�
 
 ### 1.1 Descripción del problema
 
-La empresa ACME dado a sus pocos avances tecnologicos presenta una dificultad para llevar una correcta cuenta de las personas que entraban y salían de una zona predeterminada, lo cual a llevado además a presentar un problema con el analisis de las personas tales como identificar según las caracteristicas fisicas, frecuencia de cada persona, entre otros. Por lo cual, la empresa ha decidido crear un sistema de vigilancia para tener un conteo de personas, esto lo realizará externalizando esta problematica mediante la contratación de los alumnos de Ingeniería Civil en Computación e Informática de la Universidad Católica del Norte.
+La empresa ACME dado a sus pocos avances tecnológicos presenta una dificultad para llevar una correcta cuenta de las personas que entraban y salían de una zona predeterminada, lo cual a llevado además a presentar un problema con el análisis de las personas tales como identificar según las características físicas, frecuencia de cada persona, entre otros. Por lo cual, la empresa ha decidido crear un sistema de vigilancia para tener un conteo de personas, esto lo realizará externalizando esta problemática mediante la contratación de los alumnos de Ingeniería Civil en Computación e Informática de la Universidad Católica del Norte.
 
 ### 1.2 Objetivos 
 
 **Objetivo General**
 
-Desarrollar un sistema que identifique y contabilice la cantidad de personas que entren y salgan dentro de una zona previamente determinada
+Desarrollar un sistema que identifique y contabilice la cantidad de personas que entren y salgan dentro de una zona previamente determinada.
 
 **Objetivos específicos**
 
@@ -43,19 +43,19 @@ Desarrollar un sistema que identifique y contabilice la cantidad de personas que
 
 ### 1.3 Solución propuesta
 
-Como equipo de trabajo se popone utilizar el lenguaje c++ a través de la IDE Visual Studio Code el cual compilará y ejecutará un código para solucionar la problematica de la empresa ACME, dicho programa detectará a las personas, las alamcenará los datos recopilados y pedidos por le empresa.
+Como equipo de trabajo se propone utilizar el lenguaje c++ a través de la IDE Visual Studio Code el cual compilará y ejecutará un código para solucionar la problemática de la empresa ACME, dicho programa detectará a las personas, las almacenarán los datos recopilados y pedidos por le empresa.
 
 ## 2. Materiales y métodos
 
 Para el desarrollo del presente trabajo se realizará una planificación a través de un cronograma y el registro de una bitácora para así lograr un avance más ordenado y estructurado.
-Este proyecto se elaborará mediante codificación en lenguaje c++, reforzado con la libreria OpenCV, utilizando la IDE Visual Studio Code.
+Este proyecto se elaborará mediante codificación en lenguaje c++, reforzado con la librería OpenCV, utilizando la IDE Visual Studio Code.
 
 ### 2.1 Instalación
 
-Como anteriormente lo mencionamos, se descargó la IDE Visual Studio Code, el cual a través de la libreria OpenCV y el apoyo de CMake ejecutará el código el cual contendra el sistema de vigilancia.
-La librería OpenCV fue descargada desde el explorador y enlazada al sistema del computador mediante la configuracion del path en las variables de entorno, el cual buscará directamente los programas a utilizar.
+Como anteriormente lo mencionamos, se descargó la IDE Visual Studio Code, el cual a través de la librería OpenCV y el apoyo de CMake ejecutará el código el cual contendrá el sistema de vigilancia.
+La librería OpenCV fue descargada desde el explorador y enlazada al sistema del computador mediante la configuración del path en las variables de entorno, el cual buscará directamente los programas a utilizar.
 Para el desarrollo del código, se utilizará la IDE Visual Studio Code, la cual se descarga de forma gratuita desde el explorador, nosotros como equipo trabajamos con la extensión de C/C++ extension pack, el cual puede ser añadido directamente desde Visual Studio Code.
-Como modo de apoyo se ocupará CMake que consiste en una herramienta de autotools, dicho de otra forma es una herramienta de de generación o automatización de código.
+Como modo de apoyo se ocupará CMake que consiste en una herramienta de autotools, dicho de otra forma, es una herramienta de generación o automatización de código.
 
 ### 2.2 Diseño 
 
