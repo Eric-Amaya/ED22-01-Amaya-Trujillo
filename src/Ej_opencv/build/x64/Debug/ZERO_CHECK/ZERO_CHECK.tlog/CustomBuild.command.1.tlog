@@ -1,0 +1,10 @@
+^C:\USERS\USUARIO\ONEDRIVE\ESCRITORIO\PROGRA\EJ_OPENCV\BUILD\CMAKEFILES\F9B9914E7D5AB5ED34CFC4219FC6C1A5\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/USUARIO/OneDrive/Escritorio/Progra/Ej_opencv -BC:/Users/USUARIO/OneDrive/Escritorio/Progra/Ej_opencv/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/USUARIO/OneDrive/Escritorio/Progra/Ej_opencv/build/Ej_opencv.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
