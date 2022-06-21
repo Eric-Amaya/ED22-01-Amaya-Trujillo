@@ -43,7 +43,7 @@ Desarrollar un sistema que identifique y contabilice la cantidad de personas que
 
 ### 1.3 Solución propuesta
 
-Esbozo de la solución propuesta, se espera que esta vaya evolucionando a medida que se avanza en el proyecto.
+Como equipo de trabajo se popone utilizar el lenguaje c++ a través de la IDE Visual Studio Code el cual compilará y ejecutará un código para solucionar la problematica de la empresa ACME, dicho programa detectará a las personas, las alamcenará los datos recopilados y pedidos por le empresa.
 
 ## 2. Materiales y métodos
 
@@ -52,7 +52,10 @@ Este proyecto se elaborará mediante codificación en lenguaje c++, reforzado co
 
 ### 2.1 Instalación
 
-Describir brevemente las librerías utilizadas para la instalación y programas utilizados para la ejecución del código. (Agregar una sección de anexo para describir como fueron instaladas las librerías de OpenCV y la IDE utilzada para el trabajo)
+Como anteriormente lo mencionamos, se descargó la IDE Visual Studio Code, el cual a través de la libreria OpenCV y el apoyo de CMake ejecutará el código el cual contendra el sistema de vigilancia.
+La librería OpenCV fue descargada desde el explorador y enlazada al sistema del computador mediante la configuracion del path en las variables de entorno, el cual buscará directamente los programas a utilizar.
+Para el desarrollo del código, se utilizará la IDE Visual Studio Code, la cual se descarga de forma gratuita desde el explorador, nosotros como equipo trabajamos con la extensión de C/C++ extension pack, el cual puede ser añadido directamente desde Visual Studio Code.
+Como modo de apoyo se ocupará CMake que consiste en una herramienta de autotools, dicho de otra forma es una herramienta de de generación o automatización de código.
 
 ### 2.2 Diseño 
 
