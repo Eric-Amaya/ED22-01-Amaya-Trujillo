@@ -7,8 +7,8 @@
 
 **Alumnos:**
 
-* Eric Amaya (Rol)
-* Bastián Trujillo (Rol)
+* Eric Amaya (Coordinador)
+* Bastián Trujillo (Planificador)
 
 ## Resumen 
 
