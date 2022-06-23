@@ -3,7 +3,7 @@
 
 # Proyecto: Detección y reidentificación de caras en secuencias de imágenes o video
 
-![Portada](docs/image/Portada.png)
+![Portada](docs/images/Portada.png)
 
 ## Curso: Estructura de datos
 
