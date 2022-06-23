@@ -51,7 +51,7 @@ El equipo de trabajo se propone utilizar el lenguaje c++ a través de la IDE Vis
 
 Para el desarrollo del presente trabajo se realizará una planificación a través de un cronograma y el registro de una bitácora para así lograr un avance más ordenado y estructurado.
 Este proyecto se elaborará mediante codificación en lenguaje c++, reforzado con la librería OpenCV, utilizando la IDE Visual Studio Code.
-En el Anexo C se puede apreciar con detalle el cronograma que se realizó.
+En el Anexo C se puede apreciar con detalle el cronograma que se realizó, en el cual se consideró como primera tarea la formación del equipo de trabajo, avanzando hasta la fecha de entrega final. En el anexo C.1 se detalló exactamente la fecha de la tarea, con los dias que tuvieron disponibles para el desarrollo del proyecto y en el anexo C.2 se detalla en forma de tabla el avance logrado por el equipo de trabajo.
 
 ### 2.1 Instalación
 
