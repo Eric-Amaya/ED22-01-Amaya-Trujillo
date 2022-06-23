@@ -19,11 +19,12 @@
 
 ## 1. Introducción
 
-La primera función de un reporte técnico es plasmar la información necesaria para que otras personas puedan reproducir el sistema propuesto o puedan entender su fucnionamiento . Para cumplir anterior se debe diferenciar claramente entre los artefactos de diseño e implementación. En el caso de un desarrollo tecnológico los algoritmos son importantes como componente de diseño y los programas generalmente son irrelevantes y deben resumidos o agregados en anexos en el documento. Los programas no son importantes en el documento, salvo si se quiere explicar conceptos expecíficos del lenguaje o del algoritmo implementado.
+Hoy en día se está en una era donde los avances tecnológicos progresan a pasos agigantados y como profesionales y sobre todo como ingenieros de la información y computación es relevante mantenerse actualizado en cuanto a las herramientas que ayudan a agilizar las tareas de las personas.
+A pesar de que C++, lenguaje de programación compilado, multiparadigma, principalmente imperativo y orientado a objetos y que evolucionó del lenguaje informático “C”, no es un lenguaje nuevo, hoy en día es sigue utilizándose para realizar programación estructurada de alto nivel y rendimiento, tales como, sistemas operativos, videojuegos, bases de datos, entre otros.
+Es por ello que a lo largo del presente trabajo se mostrará la realización de un software que permita a la empresa ACME acceder un sistema de vigilancia que posibilite contar personas en una zona determinada de un edificio de su organización.  Los objetivos del mismo son lograr contar cuantas personas entran y salen dentro de una zona previamente determinada, contar cuantas personas distintas han entrado o salido de la zona y listar las identidades que más han aparecido en el video, tanto en la entrada como en la salida.
+Para cumplir con los objetivos anteriormente mencionados se codificará con lenguaje C++ a través del programa Visual Studio Code, editor de código fuente desarrollado por Microsoft. En este se aplicará principalmente lo que son las listas enlazadas, conjunto de nodos, los cuales almacenan 2 tipos de información: dato que contiene y un puntero al siguiente nodo en la lista, terminando con un nodo con el valor NULL.
+Finalmente, el logro del sistema de vigilancia para la empresa ACME, además de entregarle un sistema moderno y adecuado a sus necesidades, les facilitará la toma de sus datos para el análisis de ellos.
 
-La redacción debe ser formal y de modo impersonal. No se debe utlizar primera persona del singular o plural. Se debe evitar el uso de cualquier calificativo sustituyéndolo siempre utilizando datos concretos y rastreables en documentos o publicaciones a través de referencias bibliográficas. Por ejemplo, no calificar algo como: "muy importante", "sustancial", "muy usadoo" o "mucho mejor".
-
-Las comparaciones deben concretarse con hechos y datos, sin frases ambiguas o términos generales. Por ejemplo, nunca se debe redactar frases como "el método es mejor que el método B". Lo correcto es decir, el error promedio de el método A es de 5 %, correspondiendo a la mitad del error de 10% obtenido utilizando el método B". El tiempo verbal es usualmente presente. No se debe perder de vista que se está explicando ”como hacer algo”, en vez de ”qué se hizo”. Todo aspecto circunstancial es irrelevante para el documento. Por ejemplo, si se ha desarrollado en el laboratorio X, o en el curso Y, con el profesor Z, etc.
 
 ### 1.1 Descripción del problema
 
@@ -99,6 +100,8 @@ La primera linea carga el archivo de entrenamiento... etc
 ## Anexo B: Instalación de IDE y configuración librerías OpenCV
 
 # Referecia
+Ronny Yabar Aizcorbe. Listas enlazadas – Clase Lista,Nodo en c++. https://ronnyml.com/2009/07/04/listas-enlazadas-clase-lista-en-c/#:~:text=Una%20lista%20enlazada%20tiene%20un,siguiente%20nodo%20el%20valor%20NULL.
+Frankier Flores. Qué es Visual Studio Code y qué ventajas ofrece. https://openwebinars.net/blog/que-es-visual-studio-code-y-que-ventajas-ofrece/
 
 Adrian Rosebrock. OpenCV People Counter. https://pyimagesearch.com/2018/08/13/opencv-people-counter/.
 
