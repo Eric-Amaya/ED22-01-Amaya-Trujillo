@@ -2,6 +2,9 @@
 
 
 # Proyecto: Detección y reidentificación de caras en secuencias de imágenes o video
+
+![Portada](docs/image/Portada.png)
+
 ## Curso: Estructura de datos
 
 ### Integrantes
@@ -17,7 +20,7 @@
 
 <Agregar el resumen del reporte técnico>
 
-<Colocar alguna imágen en la portada>
+
 
 ### Documentos
 
