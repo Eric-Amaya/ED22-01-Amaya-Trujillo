@@ -51,6 +51,7 @@ El equipo de trabajo se propone utilizar el lenguaje c++ a través de la IDE Vis
 
 Para el desarrollo del presente trabajo se realizará una planificación a través de un cronograma y el registro de una bitácora para así lograr un avance más ordenado y estructurado.
 Este proyecto se elaborará mediante codificación en lenguaje c++, reforzado con la librería OpenCV, utilizando la IDE Visual Studio Code.
+En el Anexo C se puede apreciar con detalle el cronograma que se realizó.
 
 ### 2.1 Instalación
 
@@ -102,6 +103,10 @@ La primera linea carga el archivo de entrenamiento... etc
 ## Anexo A: Instalación librerías OpenCV
 
 ## Anexo B: Instalación de IDE y configuración librerías OpenCV
+
+## Anexo C: Cronograma de trabajo
+## Anexo C.1: 
+## Anexo C.2:
 
 # Referecia
 Ronny Yabar Aizcorbe. Listas enlazadas – Clase Lista,Nodo en c++. https://ronnyml.com/2009/07/04/listas-enlazadas-clase-lista-en-c/#:~:text=Una%20lista%20enlazada%20tiene%20un,siguiente%20nodo%20el%20valor%20NULL.
