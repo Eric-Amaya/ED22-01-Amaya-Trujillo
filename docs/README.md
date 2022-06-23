@@ -105,8 +105,8 @@ La primera linea carga el archivo de entrenamiento... etc
 ## Anexo B: Instalación de IDE y configuración librerías OpenCV
 
 ## Anexo C: Cronograma de trabajo
-## Anexo C.1: 
-## Anexo C.2:
+## Anexo C.1: ![Crono1](images/Cronograma1.png)
+## Anexo C.2: ![Crono2](images/Cronograma2.png)
 
 # Referecia
 Ronny Yabar Aizcorbe. Listas enlazadas – Clase Lista,Nodo en c++. https://ronnyml.com/2009/07/04/listas-enlazadas-clase-lista-en-c/#:~:text=Una%20lista%20enlazada%20tiene%20un,siguiente%20nodo%20el%20valor%20NULL.
