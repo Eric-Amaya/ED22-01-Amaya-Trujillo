@@ -61,6 +61,7 @@ Como modo de apoyo se ocupará CMake que consiste en una herramienta de autotool
 
 ### 2.2 Diseño 
 
+![DiagramaClases]()
 Explicar los componentes (módulos o clases) utilizados para resolver el problema. Indicar arquitectura propuesta, diagrama de clases u otro artefacto que estime conveniente para explicar el diseño de su implimentación.
 
 ### 2.3 Implementación
