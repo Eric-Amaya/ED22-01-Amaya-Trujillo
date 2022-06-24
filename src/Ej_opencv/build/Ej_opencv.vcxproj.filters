@@ -16,6 +16,9 @@
     <ClCompile Include="C:\Users\USUARIO\OneDrive\Escritorio\Progra\Ej_opencv\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\USUARIO\OneDrive\Escritorio\Progra\Ej_opencv\Requerimientos.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\USUARIO\OneDrive\Escritorio\Progra\Ej_opencv\CMakeLists.txt" />

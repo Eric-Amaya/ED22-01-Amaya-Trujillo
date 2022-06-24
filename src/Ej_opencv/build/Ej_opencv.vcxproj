@@ -318,6 +318,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="C:\Users\USUARIO\OneDrive\Escritorio\Progra\Ej_opencv\Detector.cpp" />
     <ClCompile Include="C:\Users\USUARIO\OneDrive\Escritorio\Progra\Ej_opencv\Persona.cpp" />
     <ClCompile Include="C:\Users\USUARIO\OneDrive\Escritorio\Progra\Ej_opencv\main.cpp" />
+    <ClCompile Include="C:\Users\USUARIO\OneDrive\Escritorio\Progra\Ej_opencv\Requerimientos.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Users\USUARIO\OneDrive\Escritorio\Progra\Ej_opencv\build\ZERO_CHECK.vcxproj">

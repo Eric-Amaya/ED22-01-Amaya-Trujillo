@@ -14,13 +14,15 @@ private:
     int yCentro;
 public:
     Persona(cv::Rect&);
-
+    Persona();
     int getXComienzo();
     int getYComienzo();
     int getXFin();
     int getYFin();
     int getXCentro();
+    void setXCentro(int x);
     int getYCentro();
+    void setYCentro(int y);
 };
 
 #endif

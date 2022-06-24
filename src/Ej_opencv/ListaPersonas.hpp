@@ -10,8 +10,8 @@ class ListaPersonas
 
     public: 
     ListaPersonas();
-    void ingresarPersona(Nodo* p);
-    int cantidad();
+    void ingresarPersona(Persona* n);
+    int getCantidad();
     Nodo* buscarNodo(int num);
     void datos();
 

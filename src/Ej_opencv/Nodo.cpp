@@ -18,9 +18,19 @@ Nodo* Nodo::getNext()
     return this->next;
 }
 
-Persona* Nodo::getDato() 
+Persona* Nodo::getPersona() 
 {
     return this->persona;
+}
+
+int Nodo:: getID() 
+{
+    return this->id;
+}
+
+void Nodo:: setID(int id) 
+{
+    this->id = id;
 }
 
 Nodo:: ~Nodo() 
