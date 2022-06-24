@@ -69,7 +69,7 @@ Como modo de apoyo se ocupará CMake que consiste en una herramienta de autotool
 
 ### 2.2 Diseño 
 
-![DiagramaClases](images/Diagrama_de_clases.png)
+![DiagramaClases](images/Diagrama de clases.png)
 
 Se crearán las clases Persona, Nodo y detector, por parte de listas, se generará la ListaPersonas la cual irá almacenando los datos solicitados por la empresa ACME.
 Por parte de la clase persona contendrá los atributos de su ubicación en la zona al ser escaneada. por otra parte, la clase Nodo contiene los valores de persona y su id. Finalmente, la clase detector la cual se encargará de realizar todo el procedimiento de detectar a la persona.
