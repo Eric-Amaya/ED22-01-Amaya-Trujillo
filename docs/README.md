@@ -42,14 +42,14 @@ Desarrollar un sistema que identifique y contabilice la cantidad de personas que
 **Objetivos específicos**
 
 1. Interpretar los resultados obtenidos entre las dos muestras (entrada y salida de la zona).
-2. Implementar el lenguaje c++ para elaborar el sistema contador de personas. 
+2. Implementar el lenguaje C++ para elaborar el sistema contador de personas. 
 3. Enumerar el total de personas que entran y salen de la zona.
 4. Organizar los datos obtenidos dentro de listas.
 
 
 ### 1.3 Solución propuesta
 
-El equipo de trabajo se propone utilizar el lenguaje c++ a través de la IDE Visual Studio Code el cual compilará y ejecutará un código para solucionar la problemática de la empresa ACME, dicho programa detectará a las personas, las almacenarán los datos recopilados y pedidos por le empresa.
+El equipo de trabajo se propone utilizar el lenguaje C++ a través de la IDE Visual Studio Code el cual compilará y ejecutará un código para solucionar la problemática de la empresa ACME, dicho programa detectará a las personas, las almacenarán los datos recopilados y pedidos por le empresa.
 
 
 ## 2. Materiales y métodos
