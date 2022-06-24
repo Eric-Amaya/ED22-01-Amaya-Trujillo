@@ -110,7 +110,8 @@ Se descargó la librería OpenCV directamente del navegador en el link que se pu
 ## Anexo B.1:
 ![VisualStudioCode](images/VisualStudioCode.png)
 ## Anexo B.2:
-![Variables](images/Variables de entorno.png)
+![Variables](images/VariablesEntorno.png)
+
 La IDE fue descargada desde el navegador en el link que esta detallado en la imagen el equipo utilizó el sistema operativo windows (Anexo B.1), además se configuró la librería de OpenCV dentro de la IDE configurando las variables de entorno en el computador (Anexo B.2), a través del path, en él se especifican las rutas en las cuales el intérprete de comandos debe buscar los programas a ejecutar.
 
 
