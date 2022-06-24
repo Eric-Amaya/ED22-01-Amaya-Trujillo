@@ -15,7 +15,7 @@
 
 >Para la realización del sistema de vigilancia se crearon tres tipos de clases, “Personas” encargada de contener los atributos de la ubicación de cada persona en la zona escaneada, “Nodos” encargada de crear nodos y también trae y almacena la información de “Personas” en cada uno de los nodos creados, y “Detector” encargada de realizar los procedimientos para detectar a las personas. Añadido a lo anterior, se generó la lista “ListaPersonas” la cual va almacenando los datos solicitados por la empresa.
 >
->La creación de esto permitirá en esta primera entrega detectar personas que pasan por la imagen de video de vigilancia y dibujar un cuadro verde alrededor de ella, en su centro un puntero rojo, el cual también proporciona la habilidad de contar cuantas personas entran por la zona delimitada y cuantas a su vez salen, lo que posibilita lograr calcular la velocidad con la que entran y salen estas mismas, además, permite contar cuantas personas diferentes han entrado por aquella zona y cuantas han salido.
+>La creación de esto permitirá en esta primera entrega detectar personas que pasan por la imagen de video de vigilancia y dibujar un cuadro verde alrededor de ella, en su centro un puntero rojo, el cual también proporciona la habilidad de contar cuantas personas entran por la zona delimitada y cuantas a su vez salen, además, permite contar cuantas personas diferentes han entrado por aquella zona y cuantas han salido.
 
 
 ## 1. Introducción
@@ -97,10 +97,11 @@ La primera linea carga el archivo de entrenamiento... etc
 
 ## 3. Resultados obtenidos
 
-Dentro de los resultados obtenidos para la primera entrega del equipo, se pudo lograr la selección de la persona demostrada con un recuadro verde a su alrededor, identificarla, hacerle un seguimiento a esa misma persona, llevar un conteo de flujo de personas en un área determinada y manejo de datos.
+Dentro de los resultados obtenidos para la primera entrega del equipo, en primer lugar, se logró la selección de la persona demostrada a través de un recuadro verde a su alrededor, también se logró identificarla y hacerle un seguimiento a esta misma persona. Además, su pudo llevar a cabo un conteo de flujo de personas en el área determinada y un manejo de datos obtenidos con el sistema.
 
 ## 4. Conclusiones
 
+Tal y como hemos podido comprobar, 
 # Anexos
 
 ## Anexo A: Instalación librerías OpenCV
@@ -115,7 +116,6 @@ Se descargó la librería OpenCV directamente del navegador en el link que se pu
 ![Variables](images/VariablesEntorno.png)
 
 La IDE fue descargada desde el navegador en el link que esta detallado en la imagen el equipo utilizó el sistema operativo windows (Anexo B.1), además se configuró la librería de OpenCV dentro de la IDE configurando las variables de entorno en el computador (Anexo B.2), a través del path, en él se especifican las rutas en las cuales el intérprete de comandos debe buscar los programas a ejecutar. De forma mas específica y detallada, las rutas que se añadieron fueron las número 11 y 12.
-
 
 
 ## Anexo C: Cronograma de trabajo
