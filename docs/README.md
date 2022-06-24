@@ -128,5 +128,5 @@ Escuela de Ingenierías Industriales. El lenguaje c++. https://www2.eii.uva.es/f
 
 S.A. Qué es c++. https://i.workana.com/glosario/que-es-c/
 
-Adrian Rosebrock. OpenCV People Counter. https://pyimagesearch.com/2018/08/13/opencv-people-counter/.
+Adrian Rosebrock. OpenCV People Counter. https://pyimagesearch.com/2018/08/13/opencv-people-counter/
 
