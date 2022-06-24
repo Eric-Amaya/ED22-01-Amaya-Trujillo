@@ -15,7 +15,7 @@
 
 >Para la realización del sistema de vigilancia se crearon tres tipos de clases, “Personas” encargada de contener los atributos de la ubicación de cada persona en la zona escaneada, “Nodos” encargada de crear nodos y también trae y almacena la información de “Personas” en cada uno de los nodos creados, y “Detector” encargada de realizar los procedimientos para detectar a las personas. Añadido a lo anterior, se generó la lista “ListaPersonas” la cual va almacenando los datos solicitados por la empresa.
 >
->La creación de esto permitirá en esta primera entrega detectar personas que pasan por la imagen de video de vigilancia y dibujar un cuadro verde alrededor de ella, en su centro un puntero rojo, (Sacar! el cual también proporciona la habilidad de contar cuantas personas entran por la zona delimitada y cuantas a su vez salen, además, permite contar cuantas personas diferentes han entrado por aquella zona y cuantas han salido.)
+>La creación de esto permitirá en esta primera entrega detectar personas que pasan por la imagen de video de vigilancia y dibujar un cuadro verde alrededor de ella, en su centro un centroide rojo, (Sacar! el cual también proporciona la habilidad de contar cuantas personas entran por la zona delimitada y cuantas a su vez salen, además, permite contar cuantas personas diferentes han entrado por aquella zona y cuantas han salido.)
 
 
 ## 1. Introducción
@@ -80,26 +80,18 @@ Explicar brevemente algunos aspectos de implementación: Por ejemplo, detector d
 
 Por ejemplo, 
 
-#### Detector de caras
+#### Detector de Movimiento
 
-El detector de caras utilizado fue xxx. Para utilizarlo se debe.... El código para detectar una cara en una imagen se muestra a continuación:
+El detector de movimientos utilizado fue creado para identificar el moviemiento de cada persona, en el cual al obtener los valores llevarlos al nodo con la acción de cada persona, ya sea, entrada o salida. El código para detectar una cara en una imagen se muestra a continuación:
+![codigo1](images/Codigo1.jpg)
+Este metodo clasifica segun el movimiento tomado para cada frame comparandolo con las personas identificadas anteriormente, clasificando asi segun el centro de detenccion si el movientio ed de entrada o salida o si es persona nueva
 
-```c++
- 1. faceCascadePath = "./haarcascade_frontalface_default.xml";
- 2. faceCascade.load( faceCascadePath )
- 3. std::vector<Rect> faces;
- 4. faceCascade.detectMultiScale(frameGray, faces);
+### Promedio de Velocidad
 
- 5. for ( size_t i = 0; i < faces.size(); i++ )
- 6. {
- 7.  int x1 = faces[i].x;
- 8.  int y1 = faces[i].y;
- 9.  int x2 = faces[i].x + faces[i].width;
-10.  int y2 = faces[i].y + faces[i].height;
-11. }
-```
-La primera linea carga el archivo de entrenamiento... etc
+El promedio de velocidad calcula la velocidad de entrada y salida de cada persona con respecto al tiempo, el cual lo busca segun la persona, dependiendo de su entrada y salida y lo relaciona con el tiempo
 
+![codigo2](images/Codigo2.jpg)
+En este metodo se calcula la velocidad para las personas que entren o salgan de una zona predeterminada respecto a un tiempo estableciendo asi un flujo de personas.
 
 ## 3. Resultados obtenidos
 
