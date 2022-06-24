@@ -102,8 +102,12 @@ La primera linea carga el archivo de entrenamiento... etc
 # Anexos
 
 ## Anexo A: Instalación librerías OpenCV
+![OpenCV](images/OpenCV.png)
+
+Se descargó la librería OpenCV directamente del navegador en el link que se puede apreciar en la imagen del anexo.
 
 ## Anexo B: Instalación de IDE y configuración librerías OpenCV
+
 
 ## Anexo C: Cronograma de trabajo
 ## Anexo C.1: ![Crono1](images/Cronograma1.png)
