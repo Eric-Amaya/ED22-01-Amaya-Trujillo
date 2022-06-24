@@ -55,7 +55,7 @@ El equipo de trabajo se propone utilizar el lenguaje C++ a través de la IDE Vis
 ## 2. Materiales y métodos
 
 Para el desarrollo del presente trabajo se realizará una planificación a través de un cronograma y el registro de una bitácora para así lograr un avance más ordenado y estructurado.
-Este proyecto se elaborará mediante codificación en lenguaje c++, reforzado con la librería OpenCV, utilizando la IDE Visual Studio Code.
+Este proyecto se elaborará mediante codificación en lenguaje C++, reforzado con la librería OpenCV, utilizando la IDE Visual Studio Code.
 En el Anexo C se puede apreciar con detalle el cronograma que se realizó, en el cual se consideró como primera tarea la formación del equipo de trabajo, avanzando hasta la fecha de entrega final. En el anexo C.1 se detalló exactamente la fecha de la tarea, con los dias que tuvieron disponibles para el desarrollo del proyecto y en el anexo C.2 se detalla en forma de tabla el avance logrado por el equipo de trabajo.
 
 
@@ -77,16 +77,12 @@ Por parte de la clase persona contendrá los atributos de su ubicación en la zo
 
 ### 2.3 Implementación
 
-Explicar brevemente algunos aspectos de implementación: Por ejemplo, detector de caras utilizado. Se pueden realizar pequeñas reseñas al código para indicar elementos importantes en el trabajo.
-
-Por ejemplo, 
-
 #### Detector de Movimiento
 
 El detector de movimientos utilizado fue creado para identificar el movimiento de cada persona, en el cual al obtener los valores llevarlos al nodo con la acción de cada persona, ya sea, entrada o salida en forma de conteo. El código para detectar una persona en una imagen se muestra a continuación:
 ![Codigo1](images/Codigo1.png)
 
-Este método clasifica según el movimiento tomado para cada frame comparándolo con las personas identificadas anteriormente, clasificando así según el centro de detención si el movimiento es de entrada o salida o si es persona nueva. En la primera parte del código se identifica a la persona  siendo buscada en el nodo, identifica su posición y movimiento, en el primer caso (if(p->getXCentro()-n->getXCentro()) genera la cantidad de personas que salen de la zona y en el caso contrario (else) de entrada y al finalizar busca a otra persona para repetir el proceso.
+Este método clasifica según el movimiento tomado para cada frame, comparándolo con las personas identificadas anteriormente y clasificando así según el centro de detención si el movimiento es de entrada o salida o si es persona nueva. En la primera parte del código se identifica a la persona  siendo buscada en el nodo, identifica su posición y movimiento, en el primer caso (if(p->getXCentro()-n->getXCentro()) genera la cantidad de personas que salen de la zona y en el caso contrario (else) de entrada y al finalizar busca a otra persona para repetir el proceso.
 
 ### Promedio de Velocidad
 
@@ -104,7 +100,7 @@ Dentro de los resultados obtenidos para la primera entrega del equipo, en primer
 
 ## 4. Conclusiones
 
-Tal como se puede evidenciar, el equipo de trabajo logró aproximadamente un 60% del código del sistema para esta primera entrega y como informe logró un 100% solicitado respecto a lo solicitado. También, se identificó que la falencia que complicó al equipo con respecto al avance del código fue el traspaso de los datos de la persona a la lista creada, cabe mencionar que para la entrega final del proyecto esta falencia estará solucionada, probada y lograda junto a todos los requerimientos solicitados de la empresa ACME.
+Tal como se puede evidenciar, el equipo de trabajo logró aproximadamente un 60% del código del sistema para esta primera entrega y como informe logró un 100% solicitado respecto a lo solicitado. También, se identificó que la falencia que complicó al equipo con respecto al avance del código fue el traspaso de los datos de la persona a la lista creada, lo que genera la baja en el porcentaje con repecto al código, cabe mencionar que para la entrega final del proyecto esta falencia estará solucionada, probada y lograda junto a todos los requerimientos solicitados de la empresa ACME.
 
 # Anexos
 
@@ -119,7 +115,7 @@ Se descargó la librería OpenCV directamente del navegador en el link que se pu
 ## Anexo B.2:
 ![Variables](images/VariablesEntorno.png)
 
-La IDE fue descargada desde el navegador en el link que esta detallado en la imagen el equipo utilizó el sistema operativo windows (Anexo B.1), además se configuró la librería de OpenCV dentro de la IDE configurando las variables de entorno en el computador (Anexo B.2), a través del path, en él se especifican las rutas en las cuales el intérprete de comandos debe buscar los programas a ejecutar. De forma mas específica y detallada, las rutas que se añadieron fueron las número 11 y 12.
+La IDE fue descargada desde el navegador en el link que esta detallado en la imagen, el equipo utilizó el sistema operativo windows (Anexo B.1), además se configuró la librería de OpenCV dentro de la IDE configurando las variables de entorno en el computador (Anexo B.2), a través del path, en él se especifican las rutas en las cuales el intérprete de comandos debe buscar los programas a ejecutar. De forma mas específica y detallada, las rutas que se añadieron fueron las número 11 y 12.
 
 ## Anexo C: Cronograma de trabajo
 ## Anexo C.1: ![Crono1](images/Cronograma1.png)
