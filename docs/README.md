@@ -15,7 +15,7 @@
 
 >Para la realización del sistema de vigilancia se crearon tres tipos de clases, “Personas” encargada de contener los atributos de la ubicación de cada persona en la zona escaneada, “Nodos” encargada de crear nodos y también trae y almacena la información de “Personas” en cada uno de los nodos creados, y “Detector” encargada de realizar los procedimientos para detectar a las personas. Añadido a lo anterior, se generó la lista “ListaPersonas” la cual va almacenando los datos solicitados por la empresa.
 >
->La creación de esto permitirá en esta primera entrega detectar personas que pasan por la imagen de video de vigilancia y dibujar un cuadro verde alrededor de ella, en su centro un centroide rojo, (también proporciona la habilidad de contar cuantas personas entran por la zona delimitada y cuantas a su vez salen,) además se lograr calcular la velocidad con la que entran y salen estas mismas, además, permite contar cuantas personas diferentes han entrado por aquella zona y cuantas han salido.
+>La creación de esto permitirá en esta primera entrega detectar personas que pasan por la imagen de video de vigilancia y dibujar un cuadro verde alrededor de ella, en su centro un centroide rojo, también proporciona la habilidad de contar cuantas personas entran por la zona delimitada y cuantas a su vez salen, además se lograr calcular la velocidad con la que entran y salen estas mismas, además, permite contar cuantas personas diferentes han entrado por aquella zona y cuantas han salido.
 
 
 
@@ -83,18 +83,18 @@ Por ejemplo,
 
 #### Detector de Movimiento
 
-El detector de movimientos utilizado fue creado para identificar el movimiento de cada persona, en el cual al obtener los valores llevarlos al nodo con la acción de cada persona, ya sea, entrada o salida. El código para detectar una persona en una imagen se muestra a continuación:
+El detector de movimientos utilizado fue creado para identificar el movimiento de cada persona, en el cual al obtener los valores llevarlos al nodo con la acción de cada persona, ya sea, entrada o salida en forma de conteo. El código para detectar una persona en una imagen se muestra a continuación:
 ![Codigo1](images/Codigo1.png)
 
-Este método clasifica según el movimiento tomado para cada frame comparándolo con las personas identificadas anteriormente, clasificando así según el centro de detención si el movimiento es de entrada o salida o si es persona nueva.
+Este método clasifica según el movimiento tomado para cada frame comparándolo con las personas identificadas anteriormente, clasificando así según el centro de detención si el movimiento es de entrada o salida o si es persona nueva. En la primera parte del código se identifica a la persona  siendo buscada en el nodo, identifica su posición y movimiento, en el primer caso (if(p->getXCentro()-n->getXCentro()) genera la cantidad de personas que salen de la zona y en el caso contrario (else) de entrada y al finalizar busca a otra persona para repetir el proceso.
 
 ### Promedio de Velocidad
 
-El promedio de velocidad calcula la velocidad de entrada y salida de cada persona con respecto al tiempo, el cual lo busca según la persona, dependiendo de su entrada y salida y lo relaciona con el tiempo.  El código para detectar la velocidad y calcularla con respecto al tiempo se muestra a continuación:
+El promedio de velocidad calcula la velocidad de entrada y salida de cada persona con respecto al tiempo, el cual lo busca según la persona, dependiendo de su entrada y salida y lo relaciona con el tiempo y calcula el flujo promedio de personas. El código para detectar la velocidad y calcularla con respecto al tiempo se muestra a continuación:
 
 ![Codigo2](images/Codigo2.png)
 
-En este método se calcula la velocidad para las personas que entren o salgan de una zona predeterminada respecto a un tiempo estableciendo así un flujo de personas.
+En este método se calcula la velocidad para las personas que entren o salgan de una zona predeterminada respecto a un tiempo estableciendo así un flujo de personas. En la primera línea se define la cantidad de entrada igualada al calculo de entrada, en la segunda línea se realiza el mismo procedimiento pero para la salida y en la tercera línea de código se realiza el calculo del fllujo de personas.
 
 
 ## 3. Resultados obtenidos
