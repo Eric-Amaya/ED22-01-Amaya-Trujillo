@@ -108,8 +108,7 @@ Dentro de los resultados obtenidos para la primera entrega del equipo, en primer
 
 ## 4. Conclusiones
 
-Tal y como hemos podido comprobar, el equipo logró aproximadamente un 60% por parte del código del sistema para esta primera entrega y como informe un 100% solicitado, tambien, como equipo se detalló que la falencia que complicó el avance del código fue el traspaso de los datos de la persona a la lista, hecho el cual para la entrega final del proyecto estará solucionada, probada y lograda junto a todos los requerimientos solicitados de la empresa ACME.
-
+Tal como se puede evidenciar, el equipo de trabajo logró aproximadamente un 60% del código del sistema para esta primera entrega y como informe logró un 100% solicitado respecto a lo solicitado. También, se identificó que la falencia que complicó al equipo con respecto al avance del código fue el traspaso de los datos de la persona a la lista creada, cabe mencionar que para la entrega final del proyecto esta falencia estará solucionada, probada y lograda junto a todos los requerimientos solicitados de la empresa ACME.
 
 # Anexos
 
