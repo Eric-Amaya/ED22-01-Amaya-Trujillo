@@ -97,6 +97,8 @@ La primera linea carga el archivo de entrenamiento... etc
 
 ## 3. Resultados obtenidos
 
+Dentro de los resultados obtenidos para la primera entrega del equipo, se pudo lograr la selección de la persona demostrada con un recuadro verde a su alrededor, identificarla, hacerle un seguimiento a esa misma persona, llevar un conteo de flujo de personas en un área determinada y manejo de datos.
+
 ## 4. Conclusiones
 
 # Anexos
