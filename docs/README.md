@@ -16,9 +16,6 @@
 >Para la realización del sistema de vigilancia se crearon tres tipos de clases, “Personas” encargada de contener los atributos de la ubicación de cada persona en la >zona escaneada, “Nodos” encargada de crear nodos y también trae y almacena la información de “Personas” en cada uno de los nodos creados, y “Detector” encargada de >realizar los procedimientos para detectar a las personas. Añadido a lo anterior, se generó la lista “ListaPersonas” la cual va almacenando los datos solicitados por >la empresa.
 >La creación de esto permitirá en esta primera entrega detectar personas que pasan por la imagen de video de vigilancia y dibujar un cuadro rojo alrededor de ella, >también proporciona la habilidad de contar cuantas personas entran por la zona delimitada y cuantas a su vez salen, lo que posibilita lograr calcular la velocidad con >la que entran y salen estas mismas, además, permite contar cuantas personas diferentes han entrado por aquella zona y cuantas han salido.
 
-> Agregar un resumen que describa el trabajo realizado y sus resultados. (Entre 150 y 180 palabras)
-> Más cosas...
-> El resumen indicarlo como cita con el comando `>`
 
 ## 1. Introducción
 
