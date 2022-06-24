@@ -313,8 +313,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\USUARIO\OneDrive\Escritorio\Progra\Ej_opencv\src\logic\Node.cpp" />
-    <ClCompile Include="C:\Users\USUARIO\OneDrive\Escritorio\Progra\Ej_opencv\src\logic\ListaPersonas.cpp" />
+    <ClCompile Include="C:\Users\USUARIO\OneDrive\Escritorio\Progra\Ej_opencv\Nodo.cpp" />
+    <ClCompile Include="C:\Users\USUARIO\OneDrive\Escritorio\Progra\Ej_opencv\ListaPersonas.cpp" />
+    <ClCompile Include="C:\Users\USUARIO\OneDrive\Escritorio\Progra\Ej_opencv\Detector.cpp" />
+    <ClCompile Include="C:\Users\USUARIO\OneDrive\Escritorio\Progra\Ej_opencv\Persona.cpp" />
     <ClCompile Include="C:\Users\USUARIO\OneDrive\Escritorio\Progra\Ej_opencv\main.cpp" />
   </ItemGroup>
   <ItemGroup>

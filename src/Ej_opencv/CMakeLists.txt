@@ -8,9 +8,8 @@ find_package( OpenCV REQUIRED )
 include_directories( ${OpenCV_INCLUDE_DIRS} )    
 include_directories( "src" )
 
-set(FILES src/logic/Node.cpp src/logic/ListaPersonas.cpp )
 
-add_executable(Ej_opencv ${FILES} main.cpp)
+add_executable(Ej_opencv Nodo.cpp ListaPersonas.cpp Detector.cpp Persona.cpp main.cpp)
 
 target_link_libraries( Ej_opencv ${OpenCV_LIBS})
 
