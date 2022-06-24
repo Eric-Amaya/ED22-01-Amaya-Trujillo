@@ -83,7 +83,7 @@ Por ejemplo,
 #### Detector de Movimiento
 
 El detector de movimientos utilizado fue creado para identificar el movimiento de cada persona, en el cual al obtener los valores llevarlos al nodo con la acción de cada persona, ya sea, entrada o salida. El código para detectar una persona en una imagen se muestra a continuación:
-![codigo1](images/Codigo1.jpg)
+![Codigo1](images/Codigo1.png)
 
 Este método clasifica según el movimiento tomado para cada frame comparándolo con las personas identificadas anteriormente, clasificando así según el centro de detención si el movimiento es de entrada o salida o si es persona nueva.
 
@@ -91,7 +91,7 @@ Este método clasifica según el movimiento tomado para cada frame comparándolo
 
 El promedio de velocidad calcula la velocidad de entrada y salida de cada persona con respecto al tiempo, el cual lo busca según la persona, dependiendo de su entrada y salida y lo relaciona con el tiempo.  El código para detectar la velocidad y calcularla con respecto al tiempo se muestra a continuación:
 
-![codigo2](images/Codigo2.jpg)
+![Codigo2](images/Codigo2.png)
 
 En este método se calcula la velocidad para las personas que entren o salgan de una zona predeterminada respecto a un tiempo estableciendo así un flujo de personas.
 
