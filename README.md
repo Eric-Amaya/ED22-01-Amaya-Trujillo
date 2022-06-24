@@ -1,7 +1,7 @@
 ![UCN](docs/images/60x60-ucn-negro.png)
 
 
-# Proyecto: Detección y reidentificación de caras en secuencias de imágenes o video
+# Proyecto: Detección y reidentificación de personas dentro de secuencias de imágenes o video
 
 ![Portada](docs/images/Portada.png)
 
