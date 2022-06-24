@@ -82,16 +82,19 @@ Por ejemplo,
 
 #### Detector de Movimiento
 
-El detector de movimientos utilizado fue creado para identificar el moviemiento de cada persona, en el cual al obtener los valores llevarlos al nodo con la acción de cada persona, ya sea, entrada o salida. El código para detectar una cara en una imagen se muestra a continuación:
+El detector de movimientos utilizado fue creado para identificar el movimiento de cada persona, en el cual al obtener los valores llevarlos al nodo con la acción de cada persona, ya sea, entrada o salida. El código para detectar una persona en una imagen se muestra a continuación:
 ![codigo1](images/Codigo1.jpg)
-Este metodo clasifica segun el movimiento tomado para cada frame comparandolo con las personas identificadas anteriormente, clasificando asi segun el centro de detenccion si el movientio ed de entrada o salida o si es persona nueva
+
+Este método clasifica según el movimiento tomado para cada frame comparándolo con las personas identificadas anteriormente, clasificando así según el centro de detención si el movimiento es de entrada o salida o si es persona nueva.
 
 ### Promedio de Velocidad
 
-El promedio de velocidad calcula la velocidad de entrada y salida de cada persona con respecto al tiempo, el cual lo busca segun la persona, dependiendo de su entrada y salida y lo relaciona con el tiempo
+El promedio de velocidad calcula la velocidad de entrada y salida de cada persona con respecto al tiempo, el cual lo busca según la persona, dependiendo de su entrada y salida y lo relaciona con el tiempo.  El código para detectar la velocidad y calcularla con respecto al tiempo se muestra a continuación:
 
 ![codigo2](images/Codigo2.jpg)
-En este metodo se calcula la velocidad para las personas que entren o salgan de una zona predeterminada respecto a un tiempo estableciendo asi un flujo de personas.
+
+En este método se calcula la velocidad para las personas que entren o salgan de una zona predeterminada respecto a un tiempo estableciendo así un flujo de personas.
+
 
 ## 3. Resultados obtenidos
 
