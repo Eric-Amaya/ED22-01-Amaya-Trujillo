@@ -31,6 +31,7 @@ Finalmente, el logro del sistema de vigilancia para la empresa ACME, además de 
 
 La empresa ACME dado a sus pocos avances tecnológicos presenta una dificultad para llevar una correcta cuenta de las personas que entraban y salían de una zona predeterminada, lo cual a llevado además a presentar un problema con el análisis de las personas tales como identificar según las características físicas, frecuencia de cada persona, entre otros. Por lo cual, la empresa ha decidido crear un sistema de vigilancia para tener un conteo de personas, esto lo realizará externalizando esta problemática mediante la contratación de los alumnos de Ingeniería Civil en Computación e Informática de la Universidad Católica del Norte.
 
+
 ### 1.2 Objetivos 
 
 **Objetivo General**
@@ -44,9 +45,11 @@ Desarrollar un sistema que identifique y contabilice la cantidad de personas que
 3. Enumerar el total de personas que entran y salen de la zona.
 4. Organizar los datos obtenidos dentro de listas.
 
+
 ### 1.3 Solución propuesta
 
 El equipo de trabajo se propone utilizar el lenguaje c++ a través de la IDE Visual Studio Code el cual compilará y ejecutará un código para solucionar la problemática de la empresa ACME, dicho programa detectará a las personas, las almacenarán los datos recopilados y pedidos por le empresa.
+
 
 ## 2. Materiales y métodos
 
@@ -54,12 +57,14 @@ Para el desarrollo del presente trabajo se realizará una planificación a trav�
 Este proyecto se elaborará mediante codificación en lenguaje c++, reforzado con la librería OpenCV, utilizando la IDE Visual Studio Code.
 En el Anexo C se puede apreciar con detalle el cronograma que se realizó, en el cual se consideró como primera tarea la formación del equipo de trabajo, avanzando hasta la fecha de entrega final. En el anexo C.1 se detalló exactamente la fecha de la tarea, con los dias que tuvieron disponibles para el desarrollo del proyecto y en el anexo C.2 se detalla en forma de tabla el avance logrado por el equipo de trabajo.
 
+
 ### 2.1 Instalación
 
 Como anteriormente se mencionó, se descargó la IDE Visual Studio Code, el cual a través de la librería OpenCV y el apoyo de CMake ejecutará el código que contendrá el sistema de vigilancia.
 La librería OpenCV fue descargada desde el explorador y enlazada al sistema del computador mediante la configuración del path en las variables de entorno, el cual buscará directamente los programas a utilizar.
 Para el desarrollo del código, se utilizará la IDE Visual Studio Code, la cual se descarga de forma gratuita desde el explorador, nosotros como equipo trabajamos con la extensión de C/C++ extension pack, el cual puede ser añadido directamente desde Visual Studio Code.
 Como modo de apoyo se ocupará CMake que consiste en una herramienta de autotools, dicho de otra forma, es una herramienta de generación o automatización de código.
+
 
 ### 2.2 Diseño 
 
@@ -95,13 +100,17 @@ El detector de caras utilizado fue xxx. Para utilizarlo se debe.... El código p
 ```
 La primera linea carga el archivo de entrenamiento... etc
 
+
 ## 3. Resultados obtenidos
 
 Dentro de los resultados obtenidos para la primera entrega del equipo, en primer lugar, se logró la selección de la persona demostrada a través de un recuadro verde a su alrededor, también se logró identificarla y hacerle un seguimiento a esta misma persona. Además, su pudo llevar a cabo un conteo de flujo de personas en el área determinada y un manejo de datos obtenidos con el sistema.
 
+
 ## 4. Conclusiones
 
-Tal y como hemos podido comprobar, 
+Tal y como hemos podido comprobar, el equipo logró aproximadamente un 60% por parte del código del sistema para esta primera entrega y como informe un 100% solicitado, tambien, como equipo se detalló que la falencia que complicó el avance del código fue el traspaso de los datos de la persona a la lista, hecho el cual para la entrega final del proyecto estará solucionada, probada y lograda junto a todos los requerimientos solicitados de la empresa ACME.
+
+
 # Anexos
 
 ## Anexo A: Instalación librerías OpenCV
@@ -117,10 +126,10 @@ Se descargó la librería OpenCV directamente del navegador en el link que se pu
 
 La IDE fue descargada desde el navegador en el link que esta detallado en la imagen el equipo utilizó el sistema operativo windows (Anexo B.1), además se configuró la librería de OpenCV dentro de la IDE configurando las variables de entorno en el computador (Anexo B.2), a través del path, en él se especifican las rutas en las cuales el intérprete de comandos debe buscar los programas a ejecutar. De forma mas específica y detallada, las rutas que se añadieron fueron las número 11 y 12.
 
-
 ## Anexo C: Cronograma de trabajo
 ## Anexo C.1: ![Crono1](images/Cronograma1.png)
 ## Anexo C.2: ![Crono2](images/Cronograma2.png)
+
 
 # Referecia
 Ronny Yabar Aizcorbe. Listas enlazadas – Clase Lista,Nodo en c++. https://ronnyml.com/2009/07/04/listas-enlazadas-clase-lista-en-c/#:~:text=Una%20lista%20enlazada%20tiene%20un,siguiente%20nodo%20el%20valor%20NULL.
