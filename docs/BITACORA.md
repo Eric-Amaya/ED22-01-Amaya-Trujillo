@@ -10,4 +10,5 @@
 | 20/JUN | OBJ-04    | Traspaso de datos recopilados y actualización del codigo a plataforma GitHub | Bastián Trujillo | 2 horas | 5 horas |
 | 21/JUN | OBJ-05    | Avance de Informe Técnico | Bastián Trujillo |  3 horas | 6 horas |
 | 21/JUN | OBJ-06    | Termino del primer requerimiento | Eric Amaya | 2 horas | 5 horas |
-| 22/JUN | OBJ-07    | Comienzo de segundo y tercer requerimiento | Eric Amaya y Bastián Trujillo |  6 horas | X horas |
+| 22/JUN | OBJ-07    | Comienzo de segundo y tercer requerimiento | Eric Amaya y Bastián Trujillo |  6 horas | 8 horas |
+| 23/JUN | OBJ-08    | Subir actualización de codigo e informe técnico | Eric Amaya y Bastián Trujillo | 1 horas | 2 horas |
