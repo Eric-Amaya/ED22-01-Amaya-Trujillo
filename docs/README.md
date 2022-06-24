@@ -107,6 +107,7 @@ La primera linea carga el archivo de entrenamiento... etc
 Se descargó la librería OpenCV directamente del navegador en el link que se puede apreciar en la imagen del anexo.
 
 ## Anexo B: Instalación de IDE y configuración librerías OpenCV
+![VisualStudioCode](images/VisualStudioCode.png)
 
 
 
