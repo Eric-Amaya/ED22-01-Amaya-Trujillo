@@ -13,3 +13,4 @@
 | 22/JUN | OBJ-07    | Realización de tercer al séptimo requerimiento | Eric Amaya y Bastián Trujillo |  6 horas | 8 horas |
 | 23/JUN | OBJ-08    | Subir actualización de codigo e informe técnico | Eric Amaya y Bastián Trujillo | 1 horas | 2 horas |
 | 24/JUN | OBJ-09    | Envío primera entrega | Eric Amaya y Bastián Trujillo |  0.5 horas | 0.5 horas |
+| 8/JUL | OBJ-10    | Revisión de la actualización entrega número 2 | Eric Amaya y Bastián Trujillo |  0.5 horas | 0.5 horas |
