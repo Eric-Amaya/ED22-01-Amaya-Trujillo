@@ -45,6 +45,7 @@ Desarrollar un sistema que identifique y contabilice la cantidad de personas que
 2. Implementar el lenguaje C++ para elaborar el sistema contador de personas. 
 3. Enumerar el total de personas que entran y salen de la zona.
 4. Organizar los datos obtenidos dentro de listas.
+5. Organizar los datos en arboles binarios.
 
 
 ### 1.3 Solución propuesta
