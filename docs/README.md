@@ -121,8 +121,8 @@ Se descargó la librería OpenCV directamente del navegador en el link que se pu
 La IDE fue descargada desde el navegador en el link que esta detallado en la imagen, el equipo utilizó el sistema operativo windows (Anexo B.1), además se configuró la librería de OpenCV dentro de la IDE configurando las variables de entorno en el computador (Anexo B.2), a través del path, en él se especifican las rutas en las cuales el intérprete de comandos debe buscar los programas a ejecutar. De forma mas específica y detallada, las rutas que se añadieron fueron las número 11 y 12.
 
 ## Anexo C: Cronograma de trabajo
-## Anexo C.1: ![Crono1](images/Cronograma1.png)
-## Anexo C.2: ![Crono2](images/Cronograma2.png)
+## Anexo C.1: ![Crono1](images/CronogramaF1.png)
+## Anexo C.2: ![Crono2](images/CronogramaF2.png)
 
 
 # Referecia
