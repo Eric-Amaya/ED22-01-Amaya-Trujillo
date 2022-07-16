@@ -20,5 +20,5 @@
 | 12/JUL | OBJ-14    | Recopilación de avances del equipo | Eric Amaya y Bastián Trujillo |  2 horas | 2.5 horas |
 | 13/JUL | OBJ-15    | Termino del décimo requerimiento y estructuración del código | Eric Amaya |  6 horas | 7 horas |
 | 14/JUL | OBJ-16    | Finalización del informe técnico | Bastián Trujillo |  1 horas | 1.5 horas |
-| 15/JUL | OBJ-17    | Subir actualización de código e informe técnico a Github | Eric Amaya y Bastián Trujillo |  1 horas | 2 horas |
-| 15/JUL | OBJ-18    | Envío segunda y última entrega | Eric Amaya y Bastián Trujillo |  0.5 horas | 0.5 horas |
+| 17/JUL | OBJ-17    | Subir actualización de código e informe técnico a Github | Eric Amaya y Bastián Trujillo |  1 horas | 2 horas |
+| 17/JUL | OBJ-18    | Envío segunda y última entrega | Eric Amaya y Bastián Trujillo |  0.5 horas | 0.5 horas |
