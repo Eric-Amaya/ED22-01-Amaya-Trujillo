@@ -24,7 +24,7 @@
 Hoy en día se está en una era donde los avances tecnológicos progresan a pasos agigantados y como profesionales y sobre todo como ingenieros de la información y computación es relevante mantenerse actualizado en cuanto a las herramientas que ayudan a agilizar las tareas de las personas.
 A pesar de que C++, lenguaje de programación compilado, multiparadigma, principalmente imperativo y orientado a objetos y que evolucionó del lenguaje informático “C”, no es un lenguaje nuevo, hoy en día es sigue utilizándose para realizar programación estructurada de alto nivel y rendimiento, tales como, sistemas operativos, videojuegos, bases de datos, entre otros.
 Es por ello que a lo largo del presente trabajo se mostrará la realización de un software que permita a la empresa ACME acceder un sistema de vigilancia que posibilite contar personas en una zona determinada de un edificio de su organización.  Los objetivos del mismo son lograr contar cuantas personas entran y salen dentro de una zona previamente determinada, contar cuantas personas distintas han entrado o salido de la zona y listar las identidades que más han aparecido en el video, tanto en la entrada como en la salida.
-Para cumplir con los objetivos anteriormente mencionados se codificará con lenguaje C++ a través del programa Visual Studio Code, editor de código fuente desarrollado por Microsoft. En este se aplicará principalmente lo que son las listas enlazadas, conjunto de nodos, los cuales almacenan 2 tipos de información: dato que contiene y un puntero al siguiente nodo en la lista, terminando con un nodo con el valor NULL.
+Para cumplir con los objetivos anteriormente mencionados se codificará con lenguaje C++ a través del programa Visual Studio Code, editor de código fuente desarrollado por Microsoft. En este se aplicará principalmente lo que son las listas enlazadas, conjunto de nodos, los cuales almacenan 2 tipos de información: dato que contiene y un puntero al siguiente nodo en la lista, terminando con un nodo con el valor NULL. Además el equipo se propuso realizar el programa bajo arboles binarios.
 Finalmente, el logro del sistema de vigilancia para la empresa ACME, además de entregarle un sistema moderno y adecuado a sus necesidades, les facilitará la toma de sus datos para el análisis de ellos.
 
 
@@ -49,7 +49,7 @@ Desarrollar un sistema que identifique y contabilice la cantidad de personas que
 
 ### 1.3 Solución propuesta
 
-El equipo de trabajo se propone utilizar el lenguaje C++ a través de la IDE Visual Studio Code el cual compilará y ejecutará un código para solucionar la problemática de la empresa ACME, dicho programa detectará a las personas, las almacenarán los datos recopilados y pedidos por le empresa.
+El equipo de trabajo se propone utilizar el lenguaje C++ a través de la IDE Visual Studio Code el cual compilará y ejecutará un código para solucionar la problemática de la empresa ACME, dicho programa detectará a las personas, las almacenarán los datos recopilados y pedidos por la empresa.
 
 
 ## 2. Materiales y métodos
@@ -63,7 +63,7 @@ En el Anexo C se puede apreciar con detalle el cronograma que se realizó, en el
 
 Como anteriormente se mencionó, se descargó la IDE Visual Studio Code, el cual a través de la librería OpenCV y el apoyo de CMake ejecutará el código que contendrá el sistema de vigilancia.
 La librería OpenCV fue descargada desde el explorador y enlazada al sistema del computador mediante la configuración del path en las variables de entorno, el cual buscará directamente los programas a utilizar.
-Para el desarrollo del código, se utilizará la IDE Visual Studio Code, la cual se descarga de forma gratuita desde el explorador, nosotros como equipo trabajamos con la extensión de C/C++ extension pack, el cual puede ser añadido directamente desde Visual Studio Code.
+Para el desarrollo del código, se utilizará la IDE Visual Studio Code, la cual se descarga de forma gratuita desde el explorador, el equipo trabajó con la extensión de C/C++ extension pack, el cual puede ser añadido directamente desde Visual Studio Code.
 Como modo de apoyo se ocupará CMake que consiste en una herramienta de autotools, dicho de otra forma, es una herramienta de generación o automatización de código.
 
 
@@ -97,11 +97,13 @@ En este método se calcula la velocidad para las personas que entren o salgan de
 ## 3. Resultados obtenidos
 
 Dentro de los resultados obtenidos para la primera entrega del equipo, en primer lugar, se logró la selección de la persona demostrada a través de un recuadro verde a su alrededor, también se logró identificarla y hacerle un seguimiento a esta misma persona. Además, su pudo llevar a cabo un conteo de flujo de personas en el área determinada y un manejo de datos obtenidos con el sistema.
+Para la entrega final se obtuvo un mejorable avance el equipo, ya que, entregaron finalizado el proyecto propuesto por la empresa ACME, cumpliendo con la rotalidad de los requisitos propuestos.
 
 
 ## 4. Conclusiones
 
-Tal como se puede evidenciar, el equipo de trabajo logró aproximadamente un 70% del código del sistema para esta primera entrega y como informe se logró un 100% respecto a lo solicitado. También, se identificó que la falencia que complicó al equipo con respecto al avance del código fue la falta de imagenes o videos para la realización de más pruebas con el código, es por esto que, los requerimeintos seis y siete no se completaron, lo que genera la baja en el porcentaje con repecto al código, además el equipo se diificultó con el almacenaje de los datos de persona en la lista, cabe mencionar que para la entrega final del proyecto esta falencia estará solucionada, probada y lograda junto a todos los requerimientos solicitados de la empresa ACME.
+Tal como se puede evidenciar, el equipo de trabajo logró en su totalidad el proyecto solicitado por la empresa, adjunto a esto el informe técnico el cual detalla todo el desarrollo del proyecto, la falencia que tuvo el equipo fue la falta de imagenes o videos para la realización de maás pruebas con el código, pero aún asi el equipo logró concretar el proyecto, además para una mejor eficacia del proyecto el equipo implementó los arboles binarios para la busqueda de los datos.
+El equipo destaca su satisfacción con los resultados del proyecto y estiman que la empresa también lo estará.
 
 # Anexos
 
