@@ -88,7 +88,7 @@ El detector de imagen utilizado fue creado para identificar el movimiento de cad
 #### Ingresar Persona
 
 Este método clasifica según el movimiento tomado para cada frame, comparándolo con las personas identificadas anteriormente y clasificando así según el centro de detección si el movimiento es de entrada o salida o si es persona nueva. En la primera parte del código se identifica a la persona  siendo buscada en el nodo, identifica su posición y movimiento y al finalizar busca a otra persona para repetir el proceso.
-![Codigo2](images/Ingresar_persona_-_Listas_enlazadas.png)
+![Codigo2](images/Ingresar_personas_-_Listas_enlazadas.png)
 
 #### Arbol
 
