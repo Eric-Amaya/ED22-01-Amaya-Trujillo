@@ -80,20 +80,22 @@ Por parte de la clase persona contendrá los atributos de su ubicación en la zo
 
 ### 2.3 Implementación
 
-#### Detector de Movimiento
+#### Detector de Imagen
 
-El detector de movimientos utilizado fue creado para identificar el movimiento de cada persona, en el cual al obtener los valores llevarlos al nodo con la acción de cada persona, ya sea, entrada o salida en forma de conteo. El código para detectar una persona en una imagen se muestra a continuación:
-![Codigo1](images/Codigo1.png)
+El detector de imagen utilizado fue creado para identificar el movimiento de cada persona, en el cual al obtener los valores llevarlos a los parámetros de la persona. El código para detectar una persona en una imagen se muestra a continuación:
+![Codigo1](images/Detector_imagen.png)
 
-Este método clasifica según el movimiento tomado para cada frame, comparándolo con las personas identificadas anteriormente y clasificando así según el centro de detención si el movimiento es de entrada o salida o si es persona nueva. En la primera parte del código se identifica a la persona  siendo buscada en el nodo, identifica su posición y movimiento, en el primer caso (if(p->getXCentro()-n->getXCentro()) genera la cantidad de personas que salen de la zona y en el caso contrario (else) de entrada y al finalizar busca a otra persona para repetir el proceso.
+#### Ingresar Persona
 
-### Promedio de Velocidad
+Este método clasifica según el movimiento tomado para cada frame, comparándolo con las personas identificadas anteriormente y clasificando así según el centro de detección si el movimiento es de entrada o salida o si es persona nueva. En la primera parte del código se identifica a la persona  siendo buscada en el nodo, identifica su posición y movimiento y al finalizar busca a otra persona para repetir el proceso.
+![Codigo2](images/Ingresar_persona_-_Listas_enlazadas.png)
 
-El promedio de velocidad calcula la velocidad de entrada y salida de cada persona con respecto al tiempo, el cual lo busca según la persona, dependiendo de su entrada y salida y lo relaciona con el tiempo y calcula el flujo promedio de personas. El código para detectar la velocidad y calcularla con respecto al tiempo se muestra a continuación:
+#### Arbol
 
-![Codigo2](images/Codigo2.png)
 
-En este método se calcula la velocidad para las personas que entren o salgan de una zona predeterminada respecto a un tiempo estableciendo así un flujo de personas. En la primera línea se define la cantidad de entrada igualada al calculo de entrada, en la segunda línea se realiza el mismo procedimiento pero para la salida y en la tercera línea de código se realiza el calculo del fllujo de personas.
+![Codigo3](images/Arbol.png)
+
+
 
 
 ## 3. Resultados obtenidos
