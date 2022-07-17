@@ -96,6 +96,13 @@ Este método clasifica según el movimiento tomado para cada frame, comparándol
 ![Codigo3](images/Arbol.png)
 
 
+#### Recorrer e ingresar - Arbol
+
+![Codigo4](images/Recorrer_e_ingresar-_Arbol.png)
+
+#### Cantidad de entrada o salida - Arbol
+
+![Codigo5](images/Cantidad_entrada_o_salida_-_Arbol.png)
 
 
 ## 3. Resultados obtenidos
