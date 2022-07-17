@@ -8,28 +8,43 @@ ListaPersonas:: ListaPersonas()
 }
 void ListaPersonas:: ingresarPersona(Persona* n) 
 {
-    Nodo* p = new Nodo(n);
-    p->setID(this->cant);
+    Nodo* nodo = new Nodo(n);
     if(first== NULL)
     {
-        this->first = p;;
-        this->cant++;
+        this->first = nodo;
+        this->first->setID(this->cant);
     }
     else 
     {
-        Nodo* aux = this->first;
-        while(aux->getNext() != NULL)
+        nodo->setNext(first);
+        this->first = nodo;
+        nodo->setID(this->cant);
+        for(int i=0;i<this->cant;i++) 
         {
-            aux = aux->getNext();
+            Nodo* no = buscarNodo(i);
+            Persona *p = buscarNodo(i)->getPersona(); 
+            if((p->getXCentro()<n->getXCentro()) && (p->getYCentro() < n->getYCentro())) 
+            {
+                if(((n->getXCentro()- p->getXCentro())<10) || ((n->getYCentro()- p->getYCentro())<10)) 
+                {
+                    nodo->setTipo("entrada");
+                }
+
+            }
+            else 
+            {
+                if(((p->getXCentro()- n->getXCentro())<10) || ((p->getYCentro()- n->getYCentro())<10)) 
+                {
+                    nodo->setTipo("salida");
+                }
+            }
         }
-        aux->setNext(p);
-        this->cant++;
-    }    
+    }
+    this->cant++;   
 }
 
 int ListaPersonas:: getCantidad() 
 {
-
     return this->cant;
 }
 
@@ -44,18 +59,9 @@ Nodo* ListaPersonas::buscarNodo(int num)
         }
         aux = aux->getNext();
     }
-    return nullptr;
+    return NULL;
 }
 
-void ListaPersonas:: datos() 
-{
-    Nodo* aux = this->first;
-    while(aux != nullptr)
-    {
-        std:: cout << "Nodo numero: " << aux->getPersona() << std::endl;
-        aux = aux->getNext();
-    }
-}
 
 ListaPersonas::~ListaPersonas() {}
 

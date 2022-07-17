@@ -16,7 +16,10 @@
     <ClCompile Include="C:\Users\USUARIO\OneDrive\Escritorio\Progra\Ej_opencv\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\USUARIO\OneDrive\Escritorio\Progra\Ej_opencv\Requerimientos.cpp">
+    <ClCompile Include="C:\Users\USUARIO\OneDrive\Escritorio\Progra\Ej_opencv\ListaArbol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\USUARIO\OneDrive\Escritorio\Progra\Ej_opencv\NodoA.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

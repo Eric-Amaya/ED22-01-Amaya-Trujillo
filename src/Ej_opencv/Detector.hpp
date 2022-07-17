@@ -16,10 +16,10 @@ using namespace std;
 class Detector
 {
 private:
-    enum Mode { Default, Daimler } m;
+    enum Mode {Daimler } m;
     HOGDescriptor hog, hog_d;
 public:
-    Detector() : m(Default), hog(), hog_d(Size(48, 96), Size(16, 16), Size(8, 8), Size(8, 8), 9){
+    Detector() : m(Daimler), hog(), hog_d(Size(48, 96), Size(16, 16), Size(8, 8), Size(8, 8), 9){
         hog.setSVMDetector(HOGDescriptor::getDefaultPeopleDetector());
         hog_d.setSVMDetector(HOGDescriptor::getDaimlerPeopleDetector());
     }    

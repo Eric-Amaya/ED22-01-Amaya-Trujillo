@@ -13,7 +13,6 @@ class ListaPersonas
     void ingresarPersona(Persona* n);
     int getCantidad();
     Nodo* buscarNodo(int num);
-    void datos();
 
     ~ListaPersonas();
     

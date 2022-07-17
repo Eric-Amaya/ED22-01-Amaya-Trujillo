@@ -9,7 +9,7 @@ include_directories( ${OpenCV_INCLUDE_DIRS} )
 include_directories( "src" )
 
 
-add_executable(Ej_opencv Nodo.cpp ListaPersonas.cpp Detector.cpp Persona.cpp main.cpp Requerimientos.cpp)
+add_executable(Ej_opencv Nodo.cpp ListaPersonas.cpp Detector.cpp Persona.cpp main.cpp ListaArbol.cpp NodoA.cpp)
 
 target_link_libraries( Ej_opencv ${OpenCV_LIBS})
 

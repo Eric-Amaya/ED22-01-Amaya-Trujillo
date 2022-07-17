@@ -1,5 +1,7 @@
 #include "Nodo.hpp"
 #include <iostream>
+using namespace cv;
+using namespace std;
 
 Nodo:: Nodo () 
 {
@@ -31,6 +33,14 @@ int Nodo:: getID()
 void Nodo:: setID(int id) 
 {
     this->id = id;
+}
+void Nodo::setTipo(String tipo) 
+{
+    this->tipo = tipo;
+}
+String Nodo::getTipo()
+{
+    return this->tipo;
 }
 
 Nodo:: ~Nodo() 

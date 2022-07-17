@@ -9,19 +9,17 @@ using namespace std;
 
 #include "Detector.hpp"
 
-void Detector::toggleMode() { m = (m == Default ? Daimler : Default); }
+void Detector::toggleMode() { m = (m == Daimler ? Daimler : Daimler); }
     
-string Detector::modeName() const { return (m == Default ? "Default" : "Daimler"); }
+string Detector::modeName() const { return (m == Daimler ? "Default" : "Daimler"); }
 
 vector<Persona> Detector::detect(InputArray img){
         // Run the detector with default parameters. to get a higher hit-rate
         // (and more false alarms, respectively), decrease the hitThreshold and
         // groupThreshold (set groupThreshold to 0 to turn off the grouping completely).
         vector<Rect> found;
-        if (m == Default)
-            hog.detectMultiScale(img, found, 0, Size(2,2), Size(4,4), 1.05, 2, false);
-        else if (m == Daimler)
-            hog_d.detectMultiScale(img, found, 1, Size(2,2), Size(4,4), 1.05, 3, true);
+
+        hog_d.detectMultiScale(img, found, 1, Size(2,2), Size(4,4), 1.05, 3, true);
 
         // Convertir un objeto Rect a un objeto persona
         vector<Persona> personas;
