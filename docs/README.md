@@ -102,7 +102,7 @@ Este método clasifica según el movimiento tomado para cada frame, comparándol
 
 #### Cantidad de entrada o salida - Arbol
 
-![Codigo5](images/Cantidad_entrada_o_salida_-_Arbol.png)
+![Codigo5](images/Cantidad_entrada_o_salida.png)
 
 
 ## 3. Resultados obtenidos
