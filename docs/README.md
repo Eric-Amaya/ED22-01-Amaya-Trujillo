@@ -71,7 +71,7 @@ Como modo de apoyo se ocupará CMake que consiste en una herramienta de autotool
 
 ### 2.2 Diseño 
 
-![DiagramaClases](images/DiagramaFinal.png)
+![DiagramaClases](images/Diagrama_Final.png)
 
 
 Se crearán las clases Persona, Nodo y detector, por parte de listas, se generará la ListaPersonas la cual irá almacenando los datos solicitados por la empresa ACME.
