@@ -83,24 +83,31 @@ Por parte de la clase persona contendrá los atributos de su ubicación en la zo
 #### Detector de Imagen
 
 El detector de imagen utilizado fue creado para identificar el movimiento de cada persona, en el cual al obtener los valores llevarlos a los parámetros de la persona. El código para detectar una persona en una imagen se muestra a continuación:
+
 ![Codigo1](images/Detector_imagen.png)
 
 #### Ingresar Persona
 
 Este método clasifica según el movimiento tomado para cada frame, comparándolo con las personas identificadas anteriormente y clasificando así según el centro de detección si el movimiento es de entrada o salida o si es persona nueva. En la primera parte del código se identifica a la persona  siendo buscada en el nodo, identifica su posición y movimiento y al finalizar busca a otra persona para repetir el proceso.
+
 ![Codigo2](images/Ingresar_personas_-_Listas_enlazadas.png)
 
-#### Arbol
+#### Árbol
 
+Árbol contenedor de los parámetros de raíz y un contador de las personas.
 
 ![Codigo3](images/Arbol.png)
 
-
 #### Recorrer e ingresar - Arbol
+
+La función que implementa el algoritmo de recorrer, se le pasa un parámetro raíz y a partir de él, recorre el árbol completo retornando cada raíz.
+Para la segunda función ingresar se le pasan los parámetros raíz y persona y se ingresan de forma normal a partir de la raíz en el árbol a diferencia de que se implementan dos algoritmos que son los mismos de la lista enlazada para indicar por cada persona si está entrando o saliendo, en caso contrario se ingresa como nueva persona de forma normal, es decir, de forma recursiva.
 
 ![Codigo4](images/Recorrer_e_ingresar-_Arbol.png)
 
 #### Cantidad de entrada o salida - Arbol
+
+Función con parámetros de raíz y string en el cuál a partir de la raíz se recorre de forma recursiva y con un condicional para preguntar si es de entrada o salida y al mismo tiempo vas sumando la cantidad de personas encontradas con esta condición y las retorna al final.
 
 ![Codigo5](images/Cantidad_entrada_o_salida.png)
 
@@ -108,7 +115,7 @@ Este método clasifica según el movimiento tomado para cada frame, comparándol
 ## 3. Resultados obtenidos
 
 Dentro de los resultados obtenidos para la primera entrega del equipo, en primer lugar, se logró la selección de la persona demostrada a través de un recuadro verde a su alrededor, también se logró identificarla y hacerle un seguimiento a esta misma persona. Además, su pudo llevar a cabo un conteo de flujo de personas en el área determinada y un manejo de datos obtenidos con el sistema.
-Para la entrega final se obtuvo un mejorable avance el equipo, ya que, entregaron finalizado el proyecto propuesto por la empresa ACME, cumpliendo con la rotalidad de los requisitos propuestos.
+Para la entrega final se obtuvo un mejorable avance el equipo, ya que, entregaron finalizado el proyecto propuesto por la empresa ACME, cumpliendo con la totalidad de los requisitos propuestos.
 
 
 ## 4. Conclusiones
