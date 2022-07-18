@@ -12,7 +12,13 @@ using namespace std;
 void Detector::toggleMode() { m = (m == Daimler ? Daimler : Daimler); }
     
 string Detector::modeName() const { return (m == Daimler ? "Default" : "Daimler"); }
-
+/**
+ * @brief Este metodo se le pasa una imagen y a partir de la libreria detecta a las personas en la imagen, las cuales se almacenan en un vector
+ *        de tipo persona y se retornan 
+ * 
+ * @param img 
+ * @return vector<Persona> 
+ */
 vector<Persona> Detector::detect(InputArray img){
         // Run the detector with default parameters. to get a higher hit-rate
         // (and more false alarms, respectively), decrease the hitThreshold and
