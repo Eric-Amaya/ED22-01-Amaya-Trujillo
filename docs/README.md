@@ -1,4 +1,4 @@
-Diagrama_final.png![UCN](images/60x60-ucn-negro.png)
+![UCN](images/60x60-ucn-negro.png)
 
 
 # Informe Técnico 
