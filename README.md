@@ -3,7 +3,7 @@
 
 # Proyecto: Detección y reidentificación de personas dentro de secuencias de imágenes o video
 
-![Portada](docs/images/Portada.png)
+   ![Portada](docs/images/Portada.png)
 
 ## Curso: Estructura de datos
 
