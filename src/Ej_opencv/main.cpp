@@ -12,7 +12,12 @@
 
 using namespace cv;
 using namespace std;
-
+/**
+ * @brief Metodo que recorre el arbol de forma inorden, devolviendo el nodo por el que pasa
+ * 
+ * @param raiz 
+ * @return NodoA* 
+ */
 NodoA* recorrer (NodoA * raiz) 
 {
     if(raiz != NULL) 
@@ -22,7 +27,12 @@ NodoA* recorrer (NodoA * raiz)
         recorrer(raiz->getDer());
     }
 };
-
+/**
+ * @brief Metodo para ingresar en el arbol segun el requerimiento de entrada y salida
+ * 
+ * @param raiz 
+ * @param p 
+ */
 void ingresar(NodoA * raiz, Persona * p) 
 {
     if(raiz == NULL) 
@@ -61,7 +71,14 @@ void ingresar(NodoA * raiz, Persona * p)
     }
 };
 
-
+/**
+ * @brief Recorre el arbol y cuenta la cantidad de nodos que guardan el mismo parametro de String entregado, que en este caso
+ *        seria de entrada o salida y devuelve el entero que se sumo recursivamente  
+ * 
+ * @param raiz 
+ * @param b 
+ * @return int 
+ */
 int conseguir (NodoA *raiz, String b) 
 {
     if(raiz == NULL) 
@@ -164,12 +181,12 @@ int main(int argc, char** argv)
                     }
                     else if (op==4) 
                     {
-                        cout<< "\nEl flujo de entrada promedio es de " << (entrada/1) << "\n"<<endl; // El tiempo indicado es de 1, el cual corresponde a una hora determinado arbitrariamente
+                        cout<< "\nEl flujo de entrada promedio es de " << (entrada/1) << " personas por una hora\n"<<endl; // El tiempo indicado es de 1, el cual corresponde a una hora determinado arbitrariamente
                                                                                                         // ,ya que no hay una cantidad mas extensa que esta de fotogramas 
                     }
                     else if (op==5) 
                     {
-                        cout<< "\nEl flujo de salida promedio es de " << (salida/1) << "\n"<< endl; // El tiempo indicado es de 1, el cual corresponde a una hora determinado arbitrariamente
+                        cout<< "\nEl flujo de salida promedio es de " << (salida/1) << " personas por una hora\n"<< endl; // El tiempo indicado es de 1, el cual corresponde a una hora determinado arbitrariamente
                                                                                                         // ,ya que no hay una cantidad mas extensa que esta de fotogramas
                     }
                     else 
@@ -191,7 +208,8 @@ int main(int argc, char** argv)
                     }
                     if (op==1) 
                     {
-                        
+                        imshow("ADMIN", image);
+                        waitKey(0);
                     }
                     else 
                     {
