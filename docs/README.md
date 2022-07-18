@@ -1,4 +1,4 @@
-![UCN](images/60x60-ucn-negro.png)
+Diagrama_final.png![UCN](images/60x60-ucn-negro.png)
 
 
 # Informe Técnico 
@@ -71,7 +71,7 @@ Como modo de apoyo se ocupará CMake que consiste en una herramienta de autotool
 
 ### 2.2 Diseño 
 
-![DiagramaClases](images/Diagrama_Final.png)
+![DiagramaClases](images/Diagrama_final.png)
 
 
 Se crearán las clases Persona, Nodo y detector, por parte de listas, se generará la ListaPersonas la cual irá almacenando los datos solicitados por la empresa ACME.
