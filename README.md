@@ -28,5 +28,5 @@
 
 * [Reporte Técnico](docs/README.md)
 
-* [Video Explicaión](docs/Video Explicado)
+* [Video Explicaión](docs/Video Explicado.md)
 
