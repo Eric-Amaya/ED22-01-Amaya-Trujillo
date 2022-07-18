@@ -6,6 +6,14 @@ ListaPersonas:: ListaPersonas()
     this->first = nullptr;
     this->cant = 0;
 }
+
+/**
+ * @brief Se entrega como parametro una persona para ingresarla en el nodo y luego en la lista enlazada.
+ *        Lo siguiente es si no esta vacio, entra al algoritmo para buscar a partir de las personas ya ingresadas si son las mismas o no, y si es asi determinar si se mueven
+ *        hacia la entrada o la salida
+ * 
+ * @param n 
+ */
 void ListaPersonas:: ingresarPersona(Persona* n) 
 {
     Nodo* nodo = new Nodo(n);
@@ -47,7 +55,12 @@ int ListaPersonas:: getCantidad()
 {
     return this->cant;
 }
-
+/**
+ * @brief Busca un nodo a partir de un numero i dado, para poder recorrer y recibir los nodos
+ * 
+ * @param num 
+ * @return Nodo* 
+ */
 Nodo* ListaPersonas::buscarNodo(int num) 
 {
     Nodo* aux = this->first;
